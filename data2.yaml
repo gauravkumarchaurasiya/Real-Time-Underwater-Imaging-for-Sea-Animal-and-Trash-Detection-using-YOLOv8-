@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 15
+names: ['Mask', 'can', 'cellphone', 'electronics', 'gbottle', 'glove', 'metal', 'misc', 'net', 'pbag', 'pbottle', 'plastic', 'rod', 'sunglasses', 'tire']
+
+roboflow:
+  workspace: nurzihan-reya-ba86a
+  project: underwater-object-detection-neural-ocean-dataset
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nurzihan-reya-ba86a/underwater-object-detection-neural-ocean-dataset/dataset/1

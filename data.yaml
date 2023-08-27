@@ -1,0 +1,13 @@
+train: ../train/images
+test: ../test/images
+val: ../valid/images
+
+nc: 30
+names: [
+    'Surgeonfishes', 'Triggerfishes', 'Jacks', 'Spadefishes', 'WrasseFish',
+    'Snappers', 'Angelfishes', 'Damselfishes', 'Parrotfishes', 'Tunas',
+    'Groupers', 'Shark', 'Moorish Idol', 'Moorish Idol', 'Angel',
+    'Damsel', 'Grouperfishes', 'Jackfish', 'Parrotfish', 'Shark', 'Snapperfish',
+    'Spade', 'Surgeon', 'Trigger', 'Tuna', 'Wrassefish', 'fish',
+    'jellyfish', 'starfish', 'stingray']
+
